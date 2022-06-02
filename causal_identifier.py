@@ -14,12 +14,6 @@ class CausalIdentifier:
 
     Currently supports backdoor and instrumental variable identification methods. The identification is based on the causal graph provided.
 
-    """
-    NONPARAMETRIC_ATE="nonparametric-ate"
-    NONPARAMETRIC_NDE="nonparametric-nde"
-    NONPARAMETRIC_NIE="nonparametric-nie"
-    MAX_BACKDOOR_ITERATIONS = 100000
-
     # Backdoor method names
     BACKDOOR_DEFAULT="default"
     BACKDOOR_EXHAUSTIVE="exhaustive-search"
